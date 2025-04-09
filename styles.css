@@ -105,13 +105,13 @@ body {
     background-color: #0056b3;
 }
 
-/* Voltear la tarjeta cuando se hace clic en Detalles */
-.tarjeta:hover .frontal {
+/* Voltear la tarjeta cuando tiene la clase 'volteada' */
+.tarjeta.volteada .frontal {
     transform: rotateY(180deg);
     /* Voltea la cara frontal */
 }
 
-.tarjeta:hover .posterior {
+.tarjeta.volteada .posterior {
     transform: rotateY(0deg);
     /* Muestra la cara posterior */
 }
