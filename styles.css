@@ -52,6 +52,8 @@ body {
     height: 120px;
     object-fit: cover;
     margin-bottom: 20px;
+    border: 1px solid #2a2a2a;
+
 }
 
 .frontal h2 {
@@ -99,6 +101,17 @@ body {
 .posterior p {
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+.posterior button {
+    padding: 12px 20px;
+    background-color:   #004794;    
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 .posterior button:hover {
